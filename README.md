@@ -30,13 +30,13 @@ hanshuang-preset/
 From the dsh plugin manager, install the git source:
 
 ```
-github:JenkinWoo/dsh-hanshuang-preset
+github:TMCCD/dsh-hanshuang-preset
 ```
 
 or the HTTPS repository URL:
 
 ```
-https://github.com/JenkinWoo/dsh-hanshuang-preset.git
+https://github.com/TMCCD/dsh-hanshuang-preset.git
 ```
 
 dsh resolves the bundle, copies it under the profile `node_modules`, and appends the package name to `dsh.profile.bundles` in the profile `package.json`.
