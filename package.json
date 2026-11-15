@@ -1,0 +1,17 @@
+{
+  "name": "@local/dsh-hanshuang-preset",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness profile bundle: independent Hanshuang agent preset; protocol clauses injected through the persona plugin at the system-prompt layer.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenkinWoo/dsh-hanshuang-preset.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
